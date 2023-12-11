@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTaxi.Api", "YandexTaxi.Api\YandexTaxi.Api.csproj", "{D7A6EEB9-2097-4277-8962-4A08E2274345}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{445FFCD0-B7EF-445B-8136-C61C1EDE6DA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yandex", "Yandex", "{84FFFAF6-3537-4607-A692-68D319482757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTaxi.Domain", "YandexTaxi.Domain\YandexTaxi.Domain.csproj", "{D257EE60-2792-495B-AC66-17FE751A5161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTaxi.Infastructure", "YandexTaxi.Infastructure\YandexTaxi.Infastructure.csproj", "{D5E6A802-16A5-4D94-ACF7-636483D555E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexTaxi.Application", "YandexTaxi.Application\YandexTaxi.Application.csproj", "{F70CB237-84D9-4D6C-96F0-91E7F62A63DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7A6EEB9-2097-4277-8962-4A08E2274345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A6EEB9-2097-4277-8962-4A08E2274345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A6EEB9-2097-4277-8962-4A08E2274345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A6EEB9-2097-4277-8962-4A08E2274345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D257EE60-2792-495B-AC66-17FE751A5161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D257EE60-2792-495B-AC66-17FE751A5161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D257EE60-2792-495B-AC66-17FE751A5161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D257EE60-2792-495B-AC66-17FE751A5161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E6A802-16A5-4D94-ACF7-636483D555E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E6A802-16A5-4D94-ACF7-636483D555E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E6A802-16A5-4D94-ACF7-636483D555E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E6A802-16A5-4D94-ACF7-636483D555E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70CB237-84D9-4D6C-96F0-91E7F62A63DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70CB237-84D9-4D6C-96F0-91E7F62A63DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70CB237-84D9-4D6C-96F0-91E7F62A63DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70CB237-84D9-4D6C-96F0-91E7F62A63DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7A6EEB9-2097-4277-8962-4A08E2274345} = {84FFFAF6-3537-4607-A692-68D319482757}
+		{84FFFAF6-3537-4607-A692-68D319482757} = {445FFCD0-B7EF-445B-8136-C61C1EDE6DA9}
+		{D257EE60-2792-495B-AC66-17FE751A5161} = {84FFFAF6-3537-4607-A692-68D319482757}
+		{D5E6A802-16A5-4D94-ACF7-636483D555E1} = {84FFFAF6-3537-4607-A692-68D319482757}
+		{F70CB237-84D9-4D6C-96F0-91E7F62A63DB} = {84FFFAF6-3537-4607-A692-68D319482757}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1FF6346-E9FA-47FA-A02B-2B060882527A}
+	EndGlobalSection
+EndGlobal
